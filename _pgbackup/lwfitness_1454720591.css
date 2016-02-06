@@ -1,0 +1,35 @@
+
+
+.lwjumbotron
+{
+    background-image: url('img/banner.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.footer-right
+{
+    text-align: right;
+}
+
+.footer-middle
+{
+    text-align: center;
+}
+
+li.h-entry.tweet.js-tweetIdInfo.is-deciderHtmlWhitespace.customisable-border
+{
+    border-style: none;
+    color: #b2b38c;
+}
+
+.customisable,.customisable:link, .customisable:visited
+{
+    color: #846d41;
+}
+
+a
+{
+    color: #b2b38c;
+}
+

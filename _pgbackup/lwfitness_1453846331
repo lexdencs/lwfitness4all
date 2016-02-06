@@ -1,0 +1,20 @@
+
+
+.lwjumbotron
+{
+    background-image: url('img/banner.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.footer-right
+{
+    text-align: right;
+}
+
+
+.footer-middle
+{
+    text-align: center;
+}
+
