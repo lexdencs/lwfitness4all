@@ -7,16 +7,14 @@
     background-repeat: no-repeat;
 }
 
-@media (min-width:768px)
+.footer-right
 {
-    .footer-right
-    {
-        text-align: right;
-    }
-    .footer-middle
-    {
-        text-align: center;
-    }
+    text-align: right;
+}
+
+.footer-middle
+{
+    text-align: center;
 }
 
 li.h-entry.tweet.js-tweetIdInfo.is-deciderHtmlWhitespace.customisable-border
@@ -33,6 +31,58 @@ li.h-entry.tweet.js-tweetIdInfo.is-deciderHtmlWhitespace.customisable-border
 a
 {
     color: #b2b38c;
+}
+
+#footer
+{
+    background-color: #B2B38C;
+    color: black;
+    padding-top: 20px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    font-family: "Source Sans Pro";
+    font-size: 14px;
+}
+
+#footer #footer-left
+{
+    padding-left: 4%;
+}
+.jumbotron
+{
+    margin-top: 0px;
+}
+
+.h3
+{
+    font-weight: bold;
+}
+
+.footernavul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-right: 30px;
+    display: inline-block;
+}
+
+.footernavli a
+{
+    font-size: 14px;
+    color: black;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-family: 'Source Sans Pro',sans-serif;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.footernavli a:hover
+{
+    color: #fff;
+    text-decoration: underline;
+    font-weight: 300;
 }
 
 .greenbg
@@ -102,62 +152,61 @@ li#synved_social_share-3
     margin-top: 0px;
 }
 
+
+
 @media (max-width: 480px)
 {
-    #largelogo
-    {
-        display: none;
+    #largelogo {
+        display:    none;   
     }
-    #smalllogo
-    {
-        display: block;
+    #smalllogo {
+        display:block;
     }
-    .greenbg
+    
+    .navbar-brand
     {
-        height: 75px;
+    height: 75px;
     }
+    
+}
+@media (min-width: 481px) and (max-width: 990px){
+
+    #largelogo {
+        display:    block;   
+    }
+    #smalllogo {
+        display:none;
+    }
+    
+    .navbar-header
+    {
+    height: 100px;
+    }
+    
 }
 
-@media (min-width: 481px)
-{
-    #largelogo
-    {
-        display: block;
+@media (min-width: 991px) {
+
+    #largelogo {
+        display:    block;   
     }
-    #smalllogo
-    {
-        display: none;
+    #smalllogo {
+        display:none;
     }
-    .greenbg
+    
+    .navbar-header
     {
-        height: 100px;
+    height: 8px;
     }
+    
 }
 
-@media (max-width: 991px)
-{
-    #largelogo
-    {
-        display: block;
-    }
-    #smalllogo
-    {
-        display: none;
-    }
-    .greenbg
-    {
-        height: 140px;
-    }
-}
 
-#footer h3.widgettitle
-{
+#footer h3.widgettitle{
     margin-top: 20px;
 }
 
-#footer #text-4
-{
-    list-style-type: none;
+#footer #text-4 {
+	list-style-type: none;
     margin-top: 20px;
 }
-
