@@ -4,7 +4,7 @@
             <div class="container">
                 <div class="">
                     <div id="footer" class="row"> 
-                        <div class="col-lg-4">
+                        <div class="col-lg-4 col-sm-4 col-md-4 col-xs-4">
                             <?php
                                 PG_Smart_Walker_Nav_Menu::$options['template'] = '<li class="footernavli {CLASSES}" id="{ID}">
                                                                     <a {ATTRS}>{TITLE}</a>
@@ -16,14 +16,14 @@
                                     'walker' => new PG_Smart_Walker_Nav_Menu()
                             ) ); ?>
                         </div>
-                        <div class="col-lg-4">
+                        <div class="col-lg-4 col-sm-4 col-md-4 col-xs-4">
                             <?php if ( is_active_sidebar( 'middle-footer' ) ) : ?>
                                 <div class="pg-empty-placeholder footer-middle">
                                     <?php dynamic_sidebar( 'middle-footer' ); ?>
                                 </div>
                             <?php endif; ?> 
                         </div>
-                        <div class="col-lg-4">
+                        <div class="col-lg-4 col-sm-4 col-md-4 col-xs-4">
                             <?php if ( is_active_sidebar( 'Right Footer' ) ) : ?>
                                 <div class="pg-empty-placeholder footer-right">
                                     <?php dynamic_sidebar( 'Right Footer' ); ?>
