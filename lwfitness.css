@@ -1,10 +1,27 @@
-
-
-.lwjumbotron
+.greenbg
 {
-    background-image: url('img/banner.png');
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color: #B2B38C;
+}
+
+.whitebg
+{
+    background-color: white;
+}
+
+/* FOOTER */
+#footer
+{
+    background-color: #B2B38C;
+    color: black;
+    padding-top: 20px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    font-family: "Source Sans Pro";
+    font-size: 14px;
+}
+#footer #footer-left
+{
+    padding-left: 4%;
 }
 
 .footer-right
@@ -16,48 +33,6 @@
 {
     text-align: center;
 }
-
-li.h-entry.tweet.js-tweetIdInfo.is-deciderHtmlWhitespace.customisable-border
-{
-    border-style: none;
-    color: #b2b38c;
-}
-
-.customisable,.customisable:link, .customisable:visited
-{
-    color: #846d41;
-}
-
-a
-{
-    color: #b2b38c;
-}
-
-#footer
-{
-    background-color: #B2B38C;
-    color: black;
-    padding-top: 20px;
-    margin-top: 20px;
-    padding-bottom: 20px;
-    font-family: "Source Sans Pro";
-    font-size: 14px;
-}
-
-#footer #footer-left
-{
-    padding-left: 4%;
-}
-.jumbotron
-{
-    margin-top: 0px;
-}
-
-.h3
-{
-    font-weight: bold;
-}
-
 .footernavul
 {
     list-style-type: none;
@@ -85,20 +60,40 @@ a
     font-weight: 300;
 }
 
-.greenbg
-{
-    background-color: #B2B38C;
-}
-
 .greenbgfooter
 {
     background-color: #B2B38C;
 }
 
-.whitebg
+
+/* OTHER */
+li.h-entry.tweet.js-tweetIdInfo.is-deciderHtmlWhitespace.customisable-border
 {
-    background-color: white;
+    border-style: none;
+    color: #b2b38c;
 }
+
+.customisable,.customisable:link, .customisable:visited
+{
+    color: #846d41;
+}
+
+a
+{
+    color: #b2b38c;
+}
+
+.jumbotron
+{
+    margin-top: 0px;
+}
+
+.h3
+{
+    font-weight: bold;
+}
+
+
 
 #sidebar li
 {
@@ -163,10 +158,11 @@ li#synved_social_share-3
         display:block;
     }
     
-    .navbar-brand
+    .navbar-header
     {
     height: 75px;
     }
+    
     
 }
 @media (min-width: 481px) and (max-width: 990px){
@@ -182,7 +178,7 @@ li#synved_social_share-3
     {
     height: 100px;
     }
-    
+        
 }
 
 @media (min-width: 991px) {

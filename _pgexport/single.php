@@ -8,10 +8,6 @@ get_header(); ?>
                 <div class="">
                     <div class="row">
                         <div class="col-md-8">
-                            <div class="well">
-                                <?php _e( 'single.php &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;', 'lwfitness' ); ?>
-                                <br>
-                            </div>
                             <h2><?php the_title(); ?></h2>
                             <?php the_content(); ?>
                         </div>
